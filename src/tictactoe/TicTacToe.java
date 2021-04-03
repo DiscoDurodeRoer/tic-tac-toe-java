@@ -1,12 +1,12 @@
 package tictactoe;
 
-public class TicTacToe_1 {
+public class TicTacToe {
 
     private Simbolo[][] tablero;
 
     private boolean turno; // true = J1, false =J2
     
-    public TicTacToe_1() {
+    public TicTacToe() {
         this.tablero = new Simbolo[3][3];
         this.turno = true;
         this.inicializartablero();
