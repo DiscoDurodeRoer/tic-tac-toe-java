@@ -253,6 +253,7 @@ public class TicTacToe_1 {
 
         }
 
+        coincidencia = true;
         //Diagonal inversa
         simbolo = tablero[0][2];
         if (simbolo != Simbolo.VACIO) {
